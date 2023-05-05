@@ -49,7 +49,6 @@ export function createCustoms<T extends ItemInterface>(
 	let custom = [];
 	switch (mode) {
 		case 'normal':
-			/* eslint-disable */
 			const item = {
 				element: evt.item,
 				newIndex: evt.newIndex!,
